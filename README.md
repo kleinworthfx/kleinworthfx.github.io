@@ -1,75 +1,125 @@
 # 👨‍💻 Paul Khumalo
 
-🎓 Third-Year IT Student (Application Development) at CPUT  
-📍 Based in Cape Town  
-💡 Passionate about building software solutions and solving real-world problems  
+🎓 Third-Year ICT Student (Application Development) at CPUT
+📍 Cape Town, South Africa
+💡 Passionate about building scalable software solutions and solving real-world problems through technology
+
+---
+
+## 🚀 Professional Profile
+
+I am an aspiring software developer with a strong foundation in application development, database design, and system architecture. I focus on writing clean, maintainable code and continuously improving my technical and problem-solving skills through real-world projects.
 
 ---
 
 ## 📚 Academic & Career Development
 
-### 🎯 Career Development
-- Professional growth and career planning  
-- Personal development and goal setting  
+<details>
+<summary>🎯 Career Development</summary>
 
-### 💬 Business Communication
-- Effective communication in professional environments  
-- Presentation and teamwork skills  
+* Career planning and professional growth strategies
+* Goal setting and continuous self-improvement
 
-### 🎤 Interview Skills
-- Mock interviews and preparation  
-- Understanding workplace expectations  
+</details>
 
-### 🌐 Professional Networking
-- Building connections in the tech industry  
-- Creating a professional online presence  
+<details>
+<summary>💬 Business Communication</summary>
 
-### 💼 Workplace Etiquette
-- Professional behavior in the workplace  
-- Ethics and communication standards  
+* Professional communication in technical environments
+* Presentation, teamwork, and collaboration skills
+
+</details>
+
+<details>
+<summary>🎤 Interview Skills</summary>
+
+* Mock interviews and structured preparation
+* Understanding workplace expectations and professional conduct
+
+</details>
+
+<details>
+<summary>🌐 Professional Networking</summary>
+
+* Building and maintaining professional relationships
+* Developing a strong digital presence
+
+</details>
+
+<details>
+<summary>💼 Workplace Etiquette</summary>
+
+* Professional behavior and communication standards
+* Workplace ethics and responsibility
+
+</details>
 
 ---
 
-## 🛠️ Skills & Technologies
+## 🛠️ Technical Skills
 
-- ☕ Java (OOP, Inheritance, Methods)
-- 🗄️ Database Design (SQL, Derby)
-- 🔧 Git & GitHub
-- 🧠 Problem Solving & Debugging
-- 🏗️ Software Development Principles
-- 📊 UML Diagrams & System Design
+**Languages & Development**
+
+* ☕ Java (OOP, Inheritance, Methods)
+* 🧠 Object-Oriented Programming (OOP Principles)
+
+**Database & Backend**
+
+* 🗄️ SQL (Database Design & Queries)
+* 🧩 Apache Derby (JDBC Integration)
+
+**Tools & Technologies**
+
+* 🔧 Git & GitHub (Version Control)
+* 📦 Maven (Project Management)
+* 🏗️ UML (System Design & Modeling)
+
+**Core Competencies**
+
+* Problem Solving & Debugging
+* Software Design Principles
+* Analytical Thinking
 
 ---
 
 ## 💻 Projects
 
-### 🏠 Real Estate System
-A Java-based system for managing property listings, inspections, and users.  
-- Domain-driven design  
-- Repository pattern  
-- Maven project structure  
+### 🏠 Real Estate Management System
+
+A Java-based application designed to manage property listings, inspections, and user interactions.
+
+**Key Features:**
+
+* Domain-driven design implementation
+* Repository pattern for data handling
+* Structured Maven-based architecture
+* Database integration using Derby
 
 ---
 
-## 🎥 Academic Demonstrations
+## 🎥 Academic Demonstration
 
 ### 🎤 Mock Interview Demonstration
+
 📥 *Download Mock Interview Video*
 
-**Video Details:**
-- File: `Paul-Mock-Interview.mp4`
-- Format: MP4  
-- Content: Demonstration of interview and workplace etiquette  
+**Details:**
+
+* File: `Paul-Mock-Interview.mp4`
+* Format: MP4
+* Demonstrates interview skills, communication, and workplace readiness
 
 ---
 
-## 📫 Contact
+## 📫 Contact Information
 
-📧 Email: 230108547@mycput.ac.za  
-📍 Location: Cape Town  
+* 📧 Email: [230108547@mycput.ac.za](mailto:230108547@mycput.ac.za)
+* 📍 Location: Cape Town, South Africa
 
 ---
 
-## 🚀 About Me
+## 🔥 Career Objective
 
-I am a dedicated IT student specializing in Application Development. I enjoy building systems, learning new technologies, and improving my development skills through academic and personal projects.
+To secure an opportunity in software development where I can contribute to building efficient, scalable systems while continuously growing my technical expertise and industry experience.
+
+---
