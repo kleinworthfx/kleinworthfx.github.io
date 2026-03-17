@@ -1,75 +1,72 @@
-# 👨‍💻 Paul Khumalo
-
-🎓 Third-Year IT Student (Application Development) at CPUT  
-📍 Based in Cape Town  
-💡 Passionate about building software solutions and solving real-world problems  
-
----
-
-## 📚 Academic & Career Development
-
-### 🎯 Career Development
-- Professional growth and career planning  
-- Personal development and goal setting  
-
-### 💬 Business Communication
-- Effective communication in professional environments  
-- Presentation and teamwork skills  
-
-### 🎤 Interview Skills
-- Mock interviews and preparation  
-- Understanding workplace expectations  
-
-### 🌐 Professional Networking
-- Building connections in the tech industry  
-- Creating a professional online presence  
-
-### 💼 Workplace Etiquette
-- Professional behavior in the workplace  
-- Ethics and communication standards  
-
----
-
-## 🛠️ Skills & Technologies
-
-- ☕ Java (OOP, Inheritance, Methods)
-- 🗄️ Database Design (SQL, Derby)
-- 🔧 Git & GitHub
-- 🧠 Problem Solving & Debugging
-- 🏗️ Software Development Principles
-- 📊 UML Diagrams & System Design
-
----
-
-## 💻 Projects
-
-### 🏠 Real Estate System
-A Java-based system for managing property listings, inspections, and users.  
-- Domain-driven design  
-- Repository pattern  
-- Maven project structure  
-
----
-
-## 🎥 Academic Demonstrations
-
-### 🎤 Mock Interview Demonstration
-📥 *Download Mock Interview Video*
-
-**Video Details:**
-- File: `Paul-Mock-Interview.mp4`
-- Format: MP4  
-- Content: Demonstration of interview and workplace etiquette  
-
----
-
-## 📫 Contact
-
-📧 Email: 230108547@mycput.ac.za  
-📍 Location: Cape Town  
-
----
-
-## 🚀 About Me
-
-I am a dedicated IT student specializing in Application Development. I enjoy building systems, learning new technologies, and improving my development skills through academic and personal projects.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zamandlovu C Ndlovu - Digital Portfolio</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f6f8fa;
+        }
+        .container {
+            background-color: white;
+            border-radius: 6px;
+            padding: 30px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+            border: 1px solid #e1e4e8;
+        }
+        h1 {
+            color: #24292e;
+            border-bottom: 1px solid #eaecef;
+            padding-bottom: 0.3em;
+        }
+        h2 {
+            color: #24292e;
+        }
+        h3 {
+            color: #24292e;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 10px;
+        }
+        li {
+            padding: 8px;
+            background-color: #f6f8fa;
+            border-radius: 6px;
+            border: 1px solid #e1e4e8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Digital Portfolio</h1>
+        <h2>Zamandlovu C Ndlovu</h2>
+        
+        <h3>Career Development Modules</h3>
+        <ul>
+            <li>📚 Career Development</li>
+            <li>🏢 Business Communication</li>
+            <li>📄 Create a CV</li>
+            <li>💻 CV Submission</li>
+            <li>📊 Interview Skills</li>
+            <li>👩‍🎓 Personality Assessment</li>
+            <li>🔧 Professional Network</li>
+            <li>📈 Skills and Interests</li>
+            <li>📋 Workplace Etiquette</li>
+            <li>📉 Business Communication</li>
+            <li>📜 Interview Skills</li>
+            <li>⚙️ Professional Networking</li>
+            <li>🌐 Workplace Etiquette</li>
+        </ul>
+    </div>
+</body>
+</html>
