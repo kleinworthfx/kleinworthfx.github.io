@@ -105,9 +105,11 @@ A Java-based application designed to manage property listings, inspections, and 
 
 **Details:**
 
-* File: `Paul-Mock-Interview.mp4`
-* Format: MP4
-* Demonstrates interview skills, communication, and workplace readiness
+## 📄 Curriculum Vitae
+👉 **[Download My CV](./Paul-Khumalo-CV.pdf)**
+
+## 🎥 Mock Interview
+👉 **[Watch My Interview](./Paul-Khumalo-Interview.mp4)**
 
 ---
 
