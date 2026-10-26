@@ -1,4 +1,4 @@
-> **PRP370S Project Presentation 3 — CampusConnect Marketplace:** [Open the portfolio of evidence](https://kleinworthfx.github.io/prp370s/). This section contains the Agile Team Charter, User Stories and Tasks, Product Backlog, Sprint Backlog and Agile Logbook.
+> **PRP370S Project Presentation 3 — Digital Payment Solution for Informal Traders:** [Open the portfolio of evidence](https://kleinworthfx.github.io/prp370s/). This section contains the Agile Team Charter, User Stories and Tasks, Product Backlog, Sprint Backlog, Agile Logbook and PayTrader application evidence.
 
 ---
 
