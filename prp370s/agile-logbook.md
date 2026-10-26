@@ -2,73 +2,79 @@
 title: Agile Logbook
 ---
 
-# Agile Logbook — CampusConnect Marketplace
+# Agile Logbook — Digital Payment Solution
 
-**Status:** Blank evidence template. Historical entries have not been supplied and are intentionally not fabricated.
+**Status:** Template awaiting actual board activity and dated records. No historical meetings, stand-ups, decisions or sprint outcomes are invented in this document.
 
-An Agile logbook records progress, discussions, decisions, blockers and improvement actions over time. Use actual notes, board history, dated messages or your own reliable contemporaneous records. Label reconstructed recollections honestly if original notes are unavailable.
+The Agile logbook should show what happened over time: progress, planning, discussions, decisions, blockers, and learning. Use Trello activity, dated messages, meeting notes, commit history or your own reliable contemporaneous records. If reconstructing a recollection after the event, label it as a recollection rather than an original dated note.
 
-## Dated activity log
+## 1. Project context
 
-Add one entry for each real meeting, work session, planning activity or meaningful progress update. Do not create entries merely to make the log look complete.
+The supplied Professional Practice 3 report dated 13 March 2026 describes the research and validation stage of a Digital Payment Solution for informal traders. It lists five group members and research-phase roles: Mfanafuthi Khumalo (Designer / Data Organizer), Paul Khumalo (Researcher), Reece Josephs (Presenter), Sinoxolo Kobeni (Team Leader), and Tshiunza Kabangu (Writer / Editor).
 
-| Date / time | Activity or meeting | Attendees (if known) | Work or decision recorded | Blocker / risk | Action and owner | Evidence |
+The supplied application ZIP contains a PayTrader prototype with trader registration/login, QR-code generation, simulated customer payments, a trader dashboard/history, profile management and an admin overview. This establishes what appears in the supplied source, not when each feature was built or who implemented it. Use actual Trello/commit records to establish the timeline and individual contribution.
+
+## 2. Dated activity log — complete from genuine records
+
+| Date / time | Activity / meeting | Attendees, if verified | Actual progress or decision | Blocker / risk | Action, owner and due date | Evidence |
 |---|---|---|---|---|---|---|
-| [ADD actual date] | [ADD] | [ADD] | [ADD] | [ADD or none recorded] | [ADD] | [ADD] |
-| [ADD actual date] | [ADD] | [ADD] | [ADD] | [ADD or none recorded] | [ADD] | [ADD] |
-| [ADD actual date] | [ADD] | [ADD] | [ADD] | [ADD or none recorded] | [ADD] | [ADD] |
+| [ADD actual date] | [ADD] | [ADD] | [ADD] | [ADD / not recorded] | [ADD] | [ADD] |
+| [ADD actual date] | [ADD] | [ADD] | [ADD] | [ADD / not recorded] | [ADD] | [ADD] |
+| [ADD actual date] | [ADD] | [ADD] | [ADD] | [ADD / not recorded] | [ADD] | [ADD] |
 
-## Meeting / stand-up record template
+## 3. Meeting / progress-update template
 
-- **Date:** [ADD]
-- **Meeting type:** [ADD actual type; do not label a discussion a stand-up unless that is accurate]
-- **Attendees:** [ADD verified attendees]
-- **Progress since last update:** [ADD]
+- **Date:** [ADD actual date]
+- **Type:** [ADD accurate type: planning, discussion, progress update, review, etc.]
+- **Attendees:** [ADD only verified names]
+- **Progress since the previous update:** [ADD]
 - **Next work planned:** [ADD]
-- **Blockers raised:** [ADD or state none were recorded]
+- **Blockers or dependencies raised:** [ADD / state not recorded]
 - **Decisions made:** [ADD]
 - **Actions, owners and due dates:** [ADD]
-- **Evidence source:** [ADD link, note or screenshot]
+- **Evidence source:** [ADD Trello card/activity, dated message, notes or commit]
 
-## Blocker and decision register
+Do not label an informal chat as a daily stand-up unless that is what the team actually held.
 
-| Date identified | Blocker / decision | Impact | Options considered | Actual resolution / next step | Owner | Evidence |
+## 4. Blocker and decision register
+
+| Date identified | Blocker / decision | Impact | Options actually considered | Resolution / next step | Owner | Evidence |
 |---|---|---|---|---|---|---|
-| [ADD actual date] | [ADD] | [ADD] | [ADD] | [ADD] | [ADD] | [ADD] |
+| [ADD] | [ADD] | [ADD] | [ADD] | [ADD] | [ADD] | [ADD] |
 
-If there is no record of a resolution, leave it open or state that the outcome is unknown. Do not invent a successful resolution.
+If the outcome is unknown or unresolved, say so. Do not invent a resolution.
 
-## Retrospective template
-
-Complete this after reviewing what actually happened in the project or sprint.
+## 5. Retrospective
 
 ### What went well?
-[ADD specific examples supported by evidence.]
+[ADD one or more actual examples and link the evidence.]
 
 ### What was difficult?
-[ADD an actual challenge, its impact and what evidence supports it.]
+[ADD an actual challenge, its impact and the supporting evidence.]
 
 ### What should improve?
-[ADD a realistic improvement action.]
+[ADD a realistic improvement based on what happened.]
 
-### Action for the next iteration
+### Improvement action for the next iteration
 - **Action:** [ADD]
 - **Owner:** [ADD]
 - **Target date:** [ADD]
 - **How success will be checked:** [ADD]
 
-## Individual reflection — Paul Khumalo
+### What did we learn about the prototype?
+Use actual testing or review results. Potential topics to investigate—not claims of past events—include QR-code scan behaviour, simulated versus real payments, transaction totals, access control and the limitations of JSON-file persistence. See [Application Evidence](application-evidence).
 
-**Drafting status: Not written because actual logbook history and your personal contribution have not yet been confirmed.**
+## 6. Individual reflection — Paul Khumalo
 
-Use the real entries to reflect on how your planning, communication, task management or problem-solving changed over time. Identify a specific event, your own response, its outcome and what you learned. Avoid claiming a lesson or outcome that you cannot substantiate.
+Use a specific, real event from the project. Explain what you personally did, why it mattered, what happened, what evidence supports your account and what you learned. Connect the reflection to your research role where relevant, but confirm your actual development contribution separately.
 
-**Reflection to complete:** [ADD your own account linked to one or more dated entries.]
+**Reflection:** [ADD Paul's own first-person account after reviewing real Trello activity and project records.]
 
-## Evidence checklist
+## 7. Evidence checklist
 
-- [ ] Actual dated notes or board history.
-- [ ] Genuine meeting / progress records.
-- [ ] Recorded blockers and decisions.
-- [ ] Retrospective with real improvement actions.
-- [ ] Completed individual reflection connected to the logbook.
+- [ ] Trello board and relevant card/activity links.
+- [ ] Actual dated progress records or clearly labelled recollections.
+- [ ] Real blockers and decisions with outcomes or current status.
+- [ ] Actual sprint review/retrospective notes, if held.
+- [ ] Commits, screenshots or test results that substantiate technical claims.
+- [ ] Individual reflection tied to specific evidence.
