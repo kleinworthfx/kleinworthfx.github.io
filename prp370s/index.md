@@ -17,11 +17,11 @@ The assessment brief asks for an e-portfolio that collects, selects, reflects on
 
 ## Assessment artefacts
 
-1. [Agile Team Charter](team-charter.md) — purpose, team roster, working agreements and decisions requiring confirmation.
-2. [User Stories and Tasks](user-stories.md) — user-centred stories, acceptance criteria and task breakdowns.
-3. [Product Backlog](product-backlog.md) — proposed priorities and rationale.
-4. [Sprint Backlog](sprint-backlog.md) — sprint goal, selected work, status and completion criteria.
-5. [Agile Logbook](agile-logbook.md) — dated records, blockers, decisions and retrospective template.
+1. [Agile Team Charter](team-charter) — purpose, team roster, working agreements and decisions requiring confirmation.
+2. [User Stories and Tasks](user-stories) — user-centred stories, acceptance criteria and task breakdowns.
+3. [Product Backlog](product-backlog) — proposed priorities and rationale.
+4. [Sprint Backlog](sprint-backlog) — sprint goal, selected work, status and completion criteria.
+5. [Agile Logbook](agile-logbook) — dated records, blockers, decisions and retrospective template.
 
 ## Project context from available documentation
 
