@@ -4,17 +4,17 @@ title: PRP370S Portfolio of Evidence
 
 # PRP370S | Portfolio of Evidence
 
-**CampusConnect Marketplace · Project Presentation 3 · October 2026**
+**Digital Payment Solution for Informal Traders · Project Presentation 3 · October 2026**
 
-Welcome to my PRP370S portfolio of evidence. This portfolio organises the Agile artefacts, project evidence and individual reflections for CampusConnect Marketplace against the five assessment categories in the Project Presentation 3 brief.
+This portfolio organises my evidence for the PRP370S / PRP371S / PRP372S Project Presentation 3 assessment. The project is the Digital Payment Solution for informal traders, with a PayTrader web prototype documented in the supplied application source archive.
 
-> **Portfolio status: Draft in progress.** Proposed planning artefacts are labelled as proposals. Historical activities, task completion, team decisions and personal reflections will only be recorded when they can be verified.
+> **Portfolio status: Draft in progress.** The research report and application source are available. The actual Trello sprint history, confirmed development roles, team-approved agreements and individual reflections still need verification.
 
-[Open the PRP370S portfolio overview](/prp370s/) · [View the GitHub repository](https://github.com/kleinworthfx/kleinworthfx.github.io)
+[Open the PRP370S evidence portfolio](/prp370s/) · [Review the PayTrader application evidence](/prp370s/application-evidence) · [View the GitHub repository](https://github.com/kleinworthfx/kleinworthfx.github.io)
 
 ## Assessment map
 
-The assessment brief allocates 20 marks to each category: 10 for evidence and 10 for reflection.
+Each of the five assessment categories is worth 20 marks: 10 for evidence and 10 for individual reflection.
 
 | Assessment category | Evidence | Reflection | Portfolio section |
 |---|---:|---:|---|
@@ -27,39 +27,26 @@ The assessment brief allocates 20 marks to each category: 10 for evidence and 10
 
 ## Project context
 
-CampusConnect Marketplace is a university-focused, browser-based marketplace. The available project documentation describes requirements relating to university-community access, item listings, search and filtering, buyer–seller communication, reviews, moderation and approved collection points. The approved scope and current implementation must be checked against the team's latest project records before final submission.
+The Professional Practice 3 report dated 13 March 2026 describes a digital payment opportunity for informal traders in Cape Town. It reports eight short interviews and proposes a phone-based platform using unique trader QR codes or payment links, with a small transaction fee as a possible business model.
 
-The portfolio separates three kinds of information:
-
-- **Documented requirements:** information found in available project documentation.
-- **Proposed planning artefacts:** drafts to compare with the team's actual Agile process.
-- **Verified project evidence:** dated records, board items, screenshots, test results and reflections supported by actual work.
-
-## Final submission checklist
-
-- [ ] Confirm the six-person team roster and each person's actual responsibilities.
-- [ ] Confirm the team charter and include evidence of the agreements actually adopted.
-- [ ] Match candidate user stories and tasks against the real project board.
-- [ ] Record the actual product backlog priorities and any supported changes.
-- [ ] Add sprint dates, goal, selected tasks, owners and statuses from genuine records.
-- [ ] Add authentic dated logbook entries, blockers, decisions and retrospective outcomes.
-- [ ] Complete each individual reflection in the first person using specific examples you can explain.
-- [ ] Add genuine screenshots or working links where permitted; remove private credentials and unnecessary personal information.
-- [ ] Test every portfolio link and check the published GitHub Pages site on desktop and mobile.
-- [ ] Submit the published portfolio URL through the required Blackboard submission process.
+The supplied application archive contains PayTrader, a web prototype with trader registration and login, QR-code generation, a customer payment flow, trader dashboard and history, profile management and an admin overview. Its payment controller explicitly states that payments are simulated and no real money moves. See the [application evidence page](/prp370s/application-evidence) for source-supported features and limitations.
 
 ## Evidence integrity
 
-A polished portfolio must be accurate as well as well-presented. A proposed story is not proof that the team implemented it; a task marked as planned is not completed evidence; and a reflection must describe my own experience rather than a generic example. Where a record is unavailable, that limitation should be stated honestly and resolved before final submission where possible.
+A source file is not proof that a feature passed testing, and a prototype simulation is not a real payment service. Proposed planning artefacts must be checked against the actual Trello board. Historical meetings, sprint dates, task ownership, outcomes and personal reflections will only be included when they can be supported.
 
-## Navigate the evidence
+## Final submission checklist
 
-- [Agile Team Charter](/prp370s/team-charter)
-- [User Stories and Tasks](/prp370s/user-stories)
-- [Product Backlog](/prp370s/product-backlog)
-- [Sprint Backlog](/prp370s/sprint-backlog)
-- [Agile Logbook](/prp370s/agile-logbook)
+- [ ] Review the real Trello charter and board activity.
+- [ ] Confirm the five members' development responsibilities; the research report only identifies research-phase roles.
+- [ ] Reconcile candidate user stories and backlog priorities with the actual board.
+- [ ] Add real sprint dates, goals, selected cards, owners, statuses and outcomes.
+- [ ] Add authentic dated logbook entries, blockers and retrospective evidence.
+- [ ] Complete each individual reflection in my own words with specific examples.
+- [ ] Capture genuine app screenshots and record actual test results.
+- [ ] Keep simulated payments clearly distinguished from real payment processing.
+- [ ] Test all published links and submit the live GitHub Pages URL through Blackboard.
 
 ---
 
-*Prepared for the PRP370S Project Presentation 3 assessment. Verify all dates, project decisions, implementation claims and personal reflections against actual records before submission.*
+*Prepared for Project Presentation 3. Verify all project decisions, dates, implementation claims and personal reflections against actual records before submission.*
