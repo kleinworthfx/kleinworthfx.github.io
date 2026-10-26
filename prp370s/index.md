@@ -24,6 +24,7 @@ The supplied application source archive contains a web prototype called **PayTra
 | Product Backlog | [Product backlog](product-backlog) | Team-approved priorities, estimates and changes from the real board |
 | Sprint Backlog | [Sprint backlog](sprint-backlog) | Actual sprint goal, dates, selected cards, owners, status and outcomes |
 | Agile Logbook | [Agile logbook](agile-logbook) | Authentic dated activity, blockers, decisions and retrospective notes |
+| Application evidence | [PayTrader source review](application-evidence) | Source-supported features, limitations and test evidence to capture |
 
 Each of the five categories is worth 20 marks: 10 for evidence and 10 for individual reflection. The assessment brief asks students to collect, select, reflect on and connect evidence. The portfolio therefore needs both artefacts and an explanation of what each artefact demonstrates about my learning.
 
@@ -53,6 +54,10 @@ The uploaded `DigitalPaymentSolution.zip` contains frontend HTML/CSS/JavaScript 
 | Sprint backlog | Structured template and candidate work areas | Real sprint dates, goal, selected cards and outcomes |
 | Agile logbook | Template for authentic dated records | Actual board history, meeting notes, messages or reliable recollections |
 | Individual reflection | Prompts tied to each category | Paul's own first-person examples and learning |
+
+## Application evidence
+
+The supplied source archive is documented separately in the [PayTrader application evidence review](application-evidence). This helps distinguish code visible in the archive from behaviour that has actually been tested. The prototype's payment flow is simulated; it must not be described as real payment processing.
 
 ## Evidence integrity rules
 
