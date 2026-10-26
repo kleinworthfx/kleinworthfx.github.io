@@ -2,77 +2,81 @@
 title: Sprint Backlog
 ---
 
-# Sprint Backlog — CampusConnect Marketplace
+# Sprint Backlog — Digital Payment Solution
 
-**Status:** Planning template. No actual sprint dates, goal, selected cards, owners or outcomes have yet been confirmed.
+**Status:** Evidence-ready sprint template. The actual sprint dates, goal, selected Trello cards, task owners and outcomes must be copied from the real board and verified with the team.
 
-A sprint backlog should show the work selected for a specific sprint and the plan for achieving its goal. The candidate scope below is a planning aid only. It must not be presented as a historical sprint unless it matches the real team's records.
+A sprint backlog is the set of work selected for a particular sprint, plus the plan for achieving its goal. The supplied project files show a prototype feature set, but they do not establish the team's actual sprint history. The candidate work below is not a historical sprint record.
 
-## Actual sprint details — complete from evidence
+## 1. Actual sprint details — complete from Trello
 
-- **Sprint number/name:** [ADD]
+- **Sprint name/number:** [ADD exact board label]
+- **Sprint planning date:** [ADD actual date]
 - **Sprint start date:** [ADD]
 - **Sprint end date:** [ADD]
-- **Sprint planning date:** [ADD]
+- **Sprint goal:** [ADD the team's actual goal]
 - **Participants:** [ADD verified attendees]
-- **Sprint goal agreed by the team:** [ADD exact or faithful summary]
-- **Evidence source:** [ADD Trello board/card, meeting notes or other record]
+- **Board/list/card evidence:** [ADD direct Trello link or screenshot]
+- **Status:** [CONFIRM actual status]
 
-## Candidate sprint goal — proposal only
+## 2. Candidate sprint goal — proposal only
 
-> Establish or verify a small, coherent part of the marketplace journey, selected according to the team's actual progress and current priorities.
+> Demonstrate a coherent PayTrader prototype journey from trader registration and QR-code generation through a clearly labelled simulated customer payment to the trader's dashboard/history.
 
-This is intentionally broad because the actual implementation status is unknown. Replace it with the real sprint goal if one was agreed.
+Use this only if it matches the actual sprint scope and team decision. Replace it with the real goal from Trello.
 
-## Sprint work table
+## 3. Candidate work items — not historical task claims
 
-| Story / task ID | Task description | Owner | Estimate | Status | Acceptance / completion evidence |
+| Work area | Candidate task | Acceptance / completion evidence | Actual owner | Actual status |
+|---|---|---|---|---|
+| Trader account | Verify registration and login | Successful and unsuccessful test cases recorded | [ADD] | [CONFIRM] |
+| Trader identity | Verify trader ID and QR generation | Generated QR displayed; scan/payload behaviour tested | [ADD] | [CONFIRM] |
+| Customer flow | Verify trader lookup and simulated payment | Valid/invalid trader and amount cases recorded; simulation clearly disclosed | [ADD] | [CONFIRM] |
+| Dashboard/history | Verify recorded payment appears correctly | Displayed values compared with test records | [ADD] | [CONFIRM] |
+| Admin access | Verify admin-only endpoints | Admin can access; non-admin cannot | [ADD] | [CONFIRM] |
+| Documentation | Update README, limitations and evidence | Source-derived claims and future work clearly distinguished | [ADD] | [CONFIRM] |
+
+Only include work that was actually selected for the sprint. Remove candidate rows that do not match the real board.
+
+## 4. Actual sprint task table
+
+| Trello card / story ID | Selected task | Owner | Estimate | Status at sprint end | Evidence / result |
 |---|---|---|---|---|---|
-| [ADD] | [ADD actual selected task] | [ADD] | [ADD or N/A] | [CONFIRM] | [ADD] |
-| [ADD] | [ADD actual selected task] | [ADD] | [ADD or N/A] | [CONFIRM] | [ADD] |
-| [ADD] | [ADD actual selected task] | [ADD] | [ADD or N/A] | [CONFIRM] | [ADD] |
-| [ADD] | [ADD actual selected task] | [ADD] | [ADD or N/A] | [CONFIRM] | [ADD] |
+| [ADD] | [ADD] | [ADD] | [ADD/N/A] | [CONFIRM] | [ADD] |
+| [ADD] | [ADD] | [ADD] | [ADD/N/A] | [CONFIRM] | [ADD] |
+| [ADD] | [ADD] | [ADD] | [ADD/N/A] | [CONFIRM] | [ADD] |
+| [ADD] | [ADD] | [ADD] | [ADD/N/A] | [CONFIRM] | [ADD] |
 
-## Daily or progress updates
+## 5. Progress updates
 
-Use the team's actual tracking cadence. If the team did not hold daily stand-ups, do not imply that it did. Progress can be recorded from authentic board updates or meeting notes.
+Use dated Trello activity, meeting notes, commit history or other real records. Do not add invented daily stand-ups or assume the team met daily.
 
-| Date | Task / story | Progress observed | Blocker or dependency | Next action | Evidence |
+| Date | Card / task | Progress actually recorded | Blocker / dependency | Next action and owner | Evidence |
 |---|---|---|---|---|---|
-| [ADD actual date] | [ADD] | [ADD] | [ADD or none recorded] | [ADD] | [ADD] |
-| [ADD actual date] | [ADD] | [ADD] | [ADD or none recorded] | [ADD] | [ADD] |
+| [ADD actual date] | [ADD] | [ADD] | [ADD or not recorded] | [ADD] | [ADD] |
+| [ADD actual date] | [ADD] | [ADD] | [ADD or not recorded] | [ADD] | [ADD] |
 
-## Definition of done
+## 6. Definition of done
 
-Use the team's agreed definition if one exists. Otherwise, propose and confirm a definition before claiming it was adopted. A useful draft may check that acceptance criteria are met, relevant tests/checks are recorded, changes are reviewed/integrated according to the team's workflow, and known limitations are documented.
+**Team's actual definition:** [ADD the wording from the charter or board; otherwise mark not confirmed.]
 
-**Team's actual definition of done:** [CONFIRM / ADD]
+If the team has not defined one, propose and agree on a definition before describing it as adopted. A useful draft for this prototype is: acceptance criteria checked, relevant tests actually run and recorded, changes reviewed/integrated through the agreed workflow, known limitations documented, and Trello status updated. A simulated payment must never be represented as real payment settlement.
 
-## Sprint review and retrospective
+## 7. Sprint review and retrospective
 
-- **Planned work completed:** [ADD only verified items]
-- **Work not completed:** [ADD]
-- **Reasons or blockers:** [ADD actual causes]
+- **Work planned:** [ADD actual selected items]
+- **Work completed and evidence:** [ADD only verified results]
+- **Work incomplete:** [ADD]
+- **Actual reasons/blockers:** [ADD]
 - **Feedback received:** [ADD actual feedback]
-- **Decisions or scope changes:** [ADD]
-- **Improvement action for the next sprint:** [ADD]
+- **Scope/design decisions:** [ADD actual decisions]
+- **Improvement action for next sprint:** [ADD]
 - **Evidence link(s):** [ADD]
 
-If no formal sprint review or retrospective occurred, state that accurately and describe only the progress review or discussion that actually took place.
+If the team did not conduct a formal sprint review or retrospective, state that plainly and record only the review/discussion that actually occurred.
 
-## Individual reflection — Paul Khumalo
+## 8. Individual reflection — Paul Khumalo
 
-**Drafting status: Not written because personal contribution and sprint history have not yet been confirmed.**
+Reflect on one real task you personally owned or contributed to. Compare what you planned with what happened, describe a real blocker or feedback point, explain your response and its outcome, and identify what you would do differently next time. Link your account to a Trello card, commit, screenshot or test record.
 
-Reflect on the work you personally committed to, what happened compared with the plan, how you handled a real blocker or change, and what you would do differently in a later sprint. Refer to a specific task or decision.
-
-**Reflection to complete:** [ADD your own account supported by actual sprint evidence.]
-
-## Evidence checklist
-
-- [ ] Actual sprint goal and dates.
-- [ ] Screenshot/export showing selected sprint cards and statuses.
-- [ ] Task ownership and estimates if used.
-- [ ] Genuine progress updates and blocker records.
-- [ ] Actual review/retrospective outcome or an honest note that no formal session occurred.
-- [ ] Completed personal reflection.
+**Reflection:** [ADD Paul's first-person account; do not claim ownership or completion without verification.]
