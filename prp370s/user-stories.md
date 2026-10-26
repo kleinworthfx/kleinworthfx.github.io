@@ -2,180 +2,204 @@
 title: User Stories and Tasks
 ---
 
-# User Stories and Tasks — CampusConnect Marketplace
+# User Stories and Tasks — Digital Payment Solution
 
-**Status:** Candidate stories derived from documented requirements; not yet confirmed as the team's actual or approved stories.
+**Status:** Candidate stories derived from the supplied research report and application source. They are not a substitute for the team's actual Trello cards.
 
-These stories translate the available project requirements into user-centred work. Before submission, compare them with the real project backlog and Trello cards. Keep, change or remove items according to the team's agreed scope.
+These stories describe the intended user value of PayTrader and provide a basis for checking the implementation. Reconcile each story with the current Trello board, the team's approved scope and the real behaviour before submitting.
 
-## Story map and candidate tasks
+## US-01 — Register as a trader
 
-### US-01 — University account access
+**User story:** As an informal trader, I want to register an account so that I can use the platform to receive and track simulated digital payments.
 
-**User story:** As an eligible university user, I want to register and sign in using my university email so that access to the marketplace is restricted to the intended community.
-
-**Acceptance criteria**
-- Registration requires the documented mandatory fields.
-- The system rejects an email address already associated with an account.
-- Authentication is required before protected marketplace functions can be used.
-- Passwords are not stored as plain text.
-- The team records the actual tests performed and their results.
+**Acceptance criteria to verify**
+- The form collects the required name, surname, email, phone and password fields.
+- An existing email address is rejected.
+- The supplied source hashes the password before storage.
+- Successful registration returns a session token and trader account information.
+- The test result is recorded after actually running the flow.
 
 **Candidate tasks**
-- Confirm the allowed university email rule and validation behaviour.
-- Design or verify the registration and sign-in flow.
-- Implement or verify server-side validation and authentication.
-- Test valid, invalid and duplicate registration scenarios.
-- Document the test outcome and any unresolved issues.
+- Confirm registration fields and validation rules.
+- Verify frontend registration and API request.
+- Verify duplicate email and password handling.
+- Test successful and failed registration.
+- Capture a genuine screenshot/test note.
 
-**Priority proposal:** High, because access control supports the intended university-focused marketplace.  
-**Estimate / owner / actual status:** [CONFIRM]
+**Source files to inspect:** `frontend/register.html`, `backend/controllers/authController.js`, `backend/models/User.js`.  
+**Actual Trello card / owner / estimate / status:** [ADD from board]
 
-### US-02 — Create and manage a listing
+## US-02 — Sign in securely
 
-**User story:** As a seller, I want to create and manage a listing so that other users can discover an item I offer.
+**User story:** As a registered trader, I want to sign in so that I can access my dashboard and account information.
 
-**Acceptance criteria**
-- A listing records the required seller, title, description, price and category.
-- Price validation prevents negative values.
-- Users can manage only listings permitted by the implemented authorisation rules.
-- Removed or inactive listings do not appear as ordinary active results.
-- Actual behaviour is verified against the implementation.
-
-**Candidate tasks**
-- Confirm required listing fields and validation rules.
-- Implement or verify listing creation and editing.
-- Implement or verify deletion/removal and listing status.
-- Test ownership and validation rules.
-- Capture a genuine test result or screenshot.
-
-**Priority proposal:** High, because listings are central to the marketplace.  
-**Estimate / owner / actual status:** [CONFIRM]
-
-### US-03 — Search and filter listings
-
-**User story:** As a buyer, I want to search and filter listings by relevant attributes so that I can find suitable items efficiently.
-
-**Acceptance criteria**
-- A user can search by item name or title as supported by the implementation.
-- Available category and price filters return matching listings.
-- Empty or unmatched searches produce a clear result state.
-- Inactive or removed listings are excluded from normal active results.
+**Acceptance criteria to verify**
+- Valid credentials return a JWT session.
+- Invalid credentials are rejected.
+- Protected routes reject requests without a valid bearer token.
+- Passwords are checked using the stored hash rather than plain-text comparison.
 
 **Candidate tasks**
-- Confirm which search fields and filters are in the approved scope.
-- Implement or verify search and filtering.
-- Test matching, no-match and filter-combination scenarios.
-- Record actual test outcomes.
+- Verify login form and API call.
+- Verify JWT creation and verification.
+- Test correct and incorrect credentials.
+- Test access to protected routes with and without a token.
+- Record actual results and defects.
 
-**Priority proposal:** High.  
-**Estimate / owner / actual status:** [CONFIRM]
+**Source files to inspect:** `frontend/login.html`, `backend/controllers/authController.js`, `backend/middleware/auth.js`.  
+**Actual Trello card / owner / estimate / status:** [ADD from board]
 
-### US-04 — Contact a seller
+## US-03 — Generate and view a trader QR code
 
-**User story:** As a buyer, I want to message a seller about a listing so that I can clarify item details before arranging an exchange.
+**User story:** As a trader, I want a unique trader ID and QR code so that customers can identify the trader when making a payment.
 
-**Acceptance criteria**
-- A message is associated with the relevant listing and sender/recipient.
-- Only permitted users can access the relevant conversation.
-- The implementation avoids unnecessarily exposing personal contact information.
-- Message handling and authorisation are tested.
-
-**Candidate tasks**
-- Confirm the messaging workflow and privacy requirements.
-- Design or verify the message data structure.
-- Implement or verify message creation and retrieval.
-- Test access restrictions and listing association.
-- Document known limitations.
-
-**Priority proposal:** Medium to high; confirm dependencies and actual project scope.  
-**Estimate / owner / actual status:** [CONFIRM]
-
-### US-05 — Review and rate a user
-
-**User story:** As a marketplace user, I want to submit a rating and review associated with an exchange so that other users can make more informed trust decisions.
-
-**Acceptance criteria**
-- Ratings are restricted to the documented 1–5 range.
-- A review records the reviewer, reviewed user and associated listing.
-- Invalid rating values are rejected.
-- The team verifies any eligibility rules for submitting a review.
+**Acceptance criteria to verify**
+- Registration creates a trader ID and QR image.
+- The dashboard displays the generated code and trader ID.
+- The team verifies whether scanning the code on a real device reaches the correct payment flow.
+- Any QR scanning limitation is documented accurately.
 
 **Candidate tasks**
-- Confirm when a review is permitted.
-- Implement or verify rating validation and review storage.
-- Test valid and invalid rating values.
-- Verify that review details are associated with the correct listing and users.
+- Verify ID generation and QR-code creation.
+- Verify the dashboard renders the QR image.
+- Test the QR payload and scan behaviour.
+- Record whether the QR contains a trader ID or a full payment URL.
+- Capture a genuine screenshot.
 
-**Priority proposal:** Medium; confirm dependencies and planned release.  
-**Estimate / owner / actual status:** [CONFIRM]
+**Source files to inspect:** `backend/controllers/authController.js`, `backend/controllers/traderController.js`, `frontend/dashboard.html`.  
+**Actual Trello card / owner / estimate / status:** [ADD from board]
 
-### US-06 — Moderate reported or inappropriate content
+## US-04 — Make a simulated payment to a trader
 
-**User story:** As an administrator, I want to review and moderate inappropriate listings so that the marketplace can be managed responsibly.
+**User story:** As a customer, I want to identify a trader and enter a payment amount so that I can experience the proposed digital-payment flow.
 
-**Acceptance criteria**
-- Administrative actions are restricted to accounts with the required role.
-- The system records the moderation action and reason where required by the documented rules.
-- Removed or inactive listings are no longer shown as normal active results.
-- Access-control and moderation behaviour are tested.
-
-**Candidate tasks**
-- Confirm the moderation workflow and administrator permissions.
-- Implement or verify the protected moderation interface and actions.
-- Record action details as supported by the design.
-- Test administrator and non-administrator access.
-- Document the actual results and any gaps.
-
-**Priority proposal:** Medium to high because it supports trust and control; confirm with the team.  
-**Estimate / owner / actual status:** [CONFIRM]
-
-### US-07 — Choose an approved collection point
-
-**User story:** As a buyer or seller, I want to identify an approved collection point where supported so that the handover can be coordinated around an accepted location.
-
-**Acceptance criteria**
-- Only collection points approved and active in the system can be selected for supported handovers.
-- The chosen point corresponds to the intended collection location.
-- The actual workflow and limitations are documented.
+**Acceptance criteria to verify**
+- The customer can look up a valid trader ID.
+- Unknown trader IDs are rejected.
+- The amount must be a positive number.
+- The system records a simulated payment and reference.
+- The confirmation page clearly represents a simulation, not a real bank transfer.
 
 **Candidate tasks**
-- Confirm the collection-point workflow and locations in scope.
-- Verify the data model and active/inactive rules.
-- Implement or verify selection behaviour.
-- Test invalid or inactive collection points.
+- Verify trader lookup.
+- Verify customer form and payment method choices.
+- Test valid and invalid amounts.
+- Verify payment record creation and reference.
+- Confirm dashboard/history reflects the test transaction.
+- Label the feature as simulated in the documentation and demo.
 
-**Priority proposal:** Medium; confirm dependencies and scope.  
-**Estimate / owner / actual status:** [CONFIRM]
+**Source files to inspect:** `frontend/payment.html`, `backend/controllers/paymentController.js`, `backend/models/Payment.js`.  
+**Important scope note:** the supplied payment controller explicitly states that no real money moves. Real payment-gateway integration is listed as future work.  
+**Actual Trello card / owner / estimate / status:** [ADD from board]
 
-## Traceability to project requirements
+## US-05 — View sales summary
 
-| Story | Documented requirement area |
-|---|---|
-| US-01 | University email access, unique accounts, authentication and password security |
-| US-02 | Listing fields, seller ownership, price validation and listing status |
-| US-03 | Search, filtering and active listing results |
-| US-04 | Buyer–seller messaging and privacy |
-| US-05 | Reviews and 1–5 rating range |
-| US-06 | Role-restricted administration and moderation records |
-| US-07 | Approved collection points |
+**User story:** As a trader, I want to see my daily and total sales summaries so that I can review the activity recorded by the prototype.
 
-## Task tracking fields to complete from the real board
+**Acceptance criteria to verify**
+- The dashboard shows daily and total payment figures and recent transactions.
+- Displayed values are consistent with the test records.
+- The team confirms how failed payments, if present, should be treated in totals.
+- The summary is described as prototype data rather than verified settlement information.
 
-| Story ID | Actual Trello card / link | Task owner | Estimate | Current status | Evidence |
+**Candidate tasks**
+- Verify dashboard endpoint and display.
+- Create test records in a controlled test environment.
+- Compare displayed totals with records.
+- Check status filtering and date-boundary behaviour.
+- Record actual results.
+
+**Source files to inspect:** `backend/controllers/traderController.js`, `backend/models/Payment.js`, `frontend/dashboard.html`.  
+**Actual Trello card / owner / estimate / status:** [ADD from board]
+
+## US-06 — Review transaction history
+
+**User story:** As a trader, I want to view my recorded transactions so that I can review customer names, amounts, methods and references.
+
+**Acceptance criteria to verify**
+- An authenticated trader can retrieve their own history.
+- Results are ordered newest first as implemented.
+- Search behaves as intended in the interface.
+- One trader cannot retrieve another trader's history.
+
+**Candidate tasks**
+- Verify protected history route.
+- Verify history rendering and search.
+- Test empty and populated history.
+- Test account-level access boundaries.
+- Record results and any gaps.
+
+**Source files to inspect:** `backend/routes/traderRoutes.js`, `backend/controllers/paymentController.js`, `frontend/history.html`.  
+**Actual Trello card / owner / estimate / status:** [ADD from board]
+
+## US-07 — Manage trader profile
+
+**User story:** As a trader, I want to view and update my profile so that my contact information remains current.
+
+**Acceptance criteria to verify**
+- The profile page loads the authenticated trader's information.
+- Supported fields can be updated.
+- Account identity fields that should be fixed are not editable through the form.
+- A successful update persists and is reflected on reload.
+
+**Candidate tasks**
+- Verify profile endpoint and form.
+- Test a valid profile update.
+- Test missing/invalid values and confirm intended validation.
+- Verify the updated values persist.
+- Record the actual result.
+
+**Source files to inspect:** `backend/controllers/traderController.js`, `frontend/profile.html`.  
+**Actual Trello card / owner / estimate / status:** [ADD from board]
+
+## US-08 — View platform information as an administrator
+
+**User story:** As an administrator, I want to view trader accounts and recorded payments so that I can monitor prototype activity.
+
+**Acceptance criteria to verify**
+- Admin endpoints require a valid token and admin role.
+- A trader account cannot access admin-only endpoints.
+- Password hashes are not included in the trader list response.
+- The reported totals are checked against the stored test records.
+
+**Candidate tasks**
+- Verify admin route middleware.
+- Create a test admin using the documented utility in a safe local environment.
+- Test admin and non-admin access.
+- Compare reported totals to test data.
+- Record findings and limitations.
+
+**Source files to inspect:** `backend/routes/adminRoutes.js`, `backend/middleware/auth.js`, `backend/controllers/adminController.js`, `frontend/admin.html`.  
+**Actual Trello card / owner / estimate / status:** [ADD from board]
+
+## Traceability summary
+
+| Story | User value | Source evidence |
+|---|---|---|
+| US-01 | Trader can create an account | Registration page, auth controller, user model |
+| US-02 | Trader can access an account | Login page, JWT creation and middleware |
+| US-03 | Trader can identify their payment profile | Trader ID and QR code logic, dashboard |
+| US-04 | Customer can try the payment journey | Payment page and simulated payment controller |
+| US-05 | Trader can inspect recorded sales | Dashboard controller and page |
+| US-06 | Trader can inspect recorded transactions | Protected history route and page |
+| US-07 | Trader can maintain profile details | Profile controller and page |
+| US-08 | Admin can inspect platform activity | Admin middleware, routes, controller and page |
+
+## Actual board mapping — complete from Trello
+
+| Story | Trello card/link | Owner | Estimate | Current status | Evidence or test result |
 |---|---|---|---|---|---|
-| US-01 | [ADD] | [ADD] | [ADD or N/A] | [CONFIRM] | [ADD] |
-| US-02 | [ADD] | [ADD] | [ADD or N/A] | [CONFIRM] | [ADD] |
-| US-03 | [ADD] | [ADD] | [ADD or N/A] | [CONFIRM] | [ADD] |
-| US-04 | [ADD] | [ADD] | [ADD or N/A] | [CONFIRM] | [ADD] |
-| US-05 | [ADD] | [ADD] | [ADD or N/A] | [CONFIRM] | [ADD] |
-| US-06 | [ADD] | [ADD] | [ADD or N/A] | [CONFIRM] | [ADD] |
-| US-07 | [ADD] | [ADD] | [ADD or N/A] | [CONFIRM] | [ADD] |
+| US-01 | [ADD] | [ADD] | [ADD/N/A] | [CONFIRM] | [ADD] |
+| US-02 | [ADD] | [ADD] | [ADD/N/A] | [CONFIRM] | [ADD] |
+| US-03 | [ADD] | [ADD] | [ADD/N/A] | [CONFIRM] | [ADD] |
+| US-04 | [ADD] | [ADD] | [ADD/N/A] | [CONFIRM] | [ADD] |
+| US-05 | [ADD] | [ADD] | [ADD/N/A] | [CONFIRM] | [ADD] |
+| US-06 | [ADD] | [ADD] | [ADD/N/A] | [CONFIRM] | [ADD] |
+| US-07 | [ADD] | [ADD] | [ADD/N/A] | [CONFIRM] | [ADD] |
+| US-08 | [ADD] | [ADD] | [ADD/N/A] | [CONFIRM] | [ADD] |
 
 ## Individual reflection — Paul Khumalo
 
-**Drafting status: Not written because personal experience has not yet been confirmed.**
+Write about a user story or task you personally contributed to. Explain what requirement you worked from, what you did, how you verified the result, what changed after feedback and what you learned about turning a user need into testable work.
 
-Reflect on which story or task you personally contributed to, how you helped define or test acceptance criteria, what changed after feedback, and what you learned about breaking requirements into manageable work. Include one specific example supported by actual evidence.
-
-**Reflection to complete:** [ADD your own account; do not claim ownership of tasks without confirmation.]
+**Reflection:** [ADD Paul's first-person account using a real example and supporting evidence.]
