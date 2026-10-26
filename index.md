@@ -6,23 +6,23 @@ title: PRP370S Portfolio of Evidence
 
 **CampusConnect Marketplace · Project Presentation 3 · October 2026**
 
-Welcome to my PRP370S portfolio of evidence. This portfolio organises the Agile artefacts, project evidence and individual reflections for the CampusConnect Marketplace project against the five assessment categories in the Project Presentation 3 brief.
+Welcome to my PRP370S portfolio of evidence. This portfolio organises the Agile artefacts, project evidence and individual reflections for CampusConnect Marketplace against the five assessment categories in the Project Presentation 3 brief.
 
 > **Portfolio status: Draft in progress.** Proposed planning artefacts are labelled as proposals. Historical activities, task completion, team decisions and personal reflections will only be recorded when they can be verified.
 
-[Open the PRP370S evidence portfolio](prp370s/index.md) · [View the GitHub repository](https://github.com/kleinworthfx/kleinworthfx.github.io)
+[Open the PRP370S portfolio overview](/prp370s/) · [View the GitHub repository](https://github.com/kleinworthfx/kleinworthfx.github.io)
 
 ## Assessment map
 
-The brief allocates 20 marks to each category: 10 for evidence and 10 for reflection. Each section below is organised to make both parts visible.
+The assessment brief allocates 20 marks to each category: 10 for evidence and 10 for reflection.
 
 | Assessment category | Evidence | Reflection | Portfolio section |
 |---|---:|---:|---|
-| Agile Team Charter | 10 | 10 | [Open charter](prp370s/team-charter.md) |
-| User Stories and Tasks | 10 | 10 | [Open user stories](prp370s/user-stories.md) |
-| Product Backlog | 10 | 10 | [Open product backlog](prp370s/product-backlog.md) |
-| Sprint Backlog | 10 | 10 | [Open sprint backlog](prp370s/sprint-backlog.md) |
-| Agile Logbook | 10 | 10 | [Open Agile logbook](prp370s/agile-logbook.md) |
+| Agile Team Charter | 10 | 10 | [Open charter](/prp370s/team-charter) |
+| User Stories and Tasks | 10 | 10 | [Open user stories](/prp370s/user-stories) |
+| Product Backlog | 10 | 10 | [Open product backlog](/prp370s/product-backlog) |
+| Sprint Backlog | 10 | 10 | [Open sprint backlog](/prp370s/sprint-backlog) |
+| Agile Logbook | 10 | 10 | [Open Agile logbook](/prp370s/agile-logbook) |
 | **Total** | **50** | **50** | **100 marks** |
 
 ## Project context
@@ -54,11 +54,11 @@ A polished portfolio must be accurate as well as well-presented. A proposed stor
 
 ## Navigate the evidence
 
-- [Agile Team Charter](prp370s/team-charter.md)
-- [User Stories and Tasks](prp370s/user-stories.md)
-- [Product Backlog](prp370s/product-backlog.md)
-- [Sprint Backlog](prp370s/sprint-backlog.md)
-- [Agile Logbook](prp370s/agile-logbook.md)
+- [Agile Team Charter](/prp370s/team-charter)
+- [User Stories and Tasks](/prp370s/user-stories)
+- [Product Backlog](/prp370s/product-backlog)
+- [Sprint Backlog](/prp370s/sprint-backlog)
+- [Agile Logbook](/prp370s/agile-logbook)
 
 ---
 
