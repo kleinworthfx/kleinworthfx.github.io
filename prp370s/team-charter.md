@@ -2,94 +2,96 @@
 title: Agile Team Charter
 ---
 
-# Agile Team Charter — CampusConnect Marketplace
+# Agile Team Charter — Digital Payment Solution
 
-**Status:** Draft for team confirmation  
-**Evidence status:** Project purpose and roster are based on the available project document. Team agreements and role allocations are not yet verified.
+**Status:** Working draft for confirmation against the team's actual development charter and Trello board.
 
-## 1. Shared purpose
+## 1. Project purpose
 
-The purpose of CampusConnect Marketplace is to plan and develop a university-focused, browser-based marketplace that supports discovery and exchange of academic items, with access controls and trust-related features described in the project requirements.
+The Digital Payment Solution project investigates and prototypes a way for informal traders to accept digital payments without needing to buy a conventional card machine. The Professional Practice 3 report dated 13 March 2026 describes a proposed phone-based platform using unique trader QR codes or payment links and a possible small transaction fee.
 
-This statement summarises the documented project direction. **[CONFIRM]** that it is still the team's agreed purpose for this assessment.
+The supplied application archive identifies the prototype as **PayTrader**. It includes trader registration and login, QR-code generation, a customer-facing simulated payment flow, trader dashboard and history, profile management, and an admin overview. The payment flow in the supplied source is simulated and does not move real money.
 
-## 2. Team roster
+## 2. Team roster and documented research-phase roles
 
-The existing Project 3 documentation lists the following group members:
+The supplied research report lists five members and the following roles for the problem-validation activity:
 
-| Member | Responsibility on this project | Confirmation |
+| Member | Role in the 13 March 2026 research report | Development role |
 |---|---|---|
-| Paul Khumalo | [CONFIRM actual role and responsibilities] | Pending |
-| Mojalefa Mabotja | [CONFIRM actual role and responsibilities] | Pending |
-| Zamandlovu C Ndlovu | [CONFIRM actual role and responsibilities] | Pending |
-| Thabang Lexon Ndouvhada | [CONFIRM actual role and responsibilities] | Pending |
-| Elona Sonjica | [CONFIRM actual role and responsibilities] | Pending |
-| Ayrton Trevor Williams | [CONFIRM actual role and responsibilities] | Pending |
+| Mfanafuthi Khumalo | Designer / Data Organizer | [CONFIRM from actual team record] |
+| Paul Khumalo | Researcher | [CONFIRM actual development contribution] |
+| Reece Josephs | Presenter | [CONFIRM from actual team record] |
+| Sinoxolo Kobeni | Team Leader | [CONFIRM from actual team record] |
+| Tshiunza Kabangu | Writer / Editor | [CONFIRM from actual team record] |
 
-The available documentation does not establish a verified role assignment for each person. Do not treat the placeholders above as agreed allocations.
+**Important:** These are roles stated for the research/validation report. They must not automatically be treated as the team's coding, testing or Agile roles.
 
-## 3. Values and working agreements — proposed, not yet confirmed
+## 3. Shared values and working agreements
 
-The following are suggestions for the team to review. They should only be presented as adopted agreements if the team confirms that it actually accepted them.
+The following are **proposed charter items**, not confirmed historical agreements. Compare them with the Trello charter card and the team's actual discussions, then retain only what the team genuinely adopted.
 
-| Area | Proposed agreement | Team decision / evidence |
+| Area | Proposed agreement | Actual decision / evidence |
 |---|---|---|
-| Communication | Use the team's agreed channel for quick updates and arrange a structured discussion when a technical issue needs clarification. | [CONFIRM channel and actual agreement] |
-| Task ownership | Each task should have a named owner and a clear expected outcome. | [CONFIRM] |
-| Transparency | Update task status honestly and raise blockers as early as possible. | [CONFIRM] |
-| Collaboration | Discuss changes that affect interfaces, data structures or another member's work before treating them as final. | [CONFIRM] |
-| Quality | Check work against acceptance criteria and the agreed definition of done. | [CONFIRM definition] |
-| Respect | Allow members to raise concerns, ask questions and disagree constructively. | [CONFIRM] |
-| Decisions | Record important scope or design decisions and the reason for them. | [CONFIRM where decisions are recorded] |
-| Accountability | Agree on realistic task commitments and communicate when they need to change. | [CONFIRM] |
+| Shared purpose | Keep work aligned to the needs of informal traders and the agreed prototype scope. | [CONFIRM] |
+| Communication | Use the team's agreed communication channels and raise technical dependencies early. | [CONFIRM channel and actual agreement] |
+| Task ownership | Give each work item one clear owner and a visible status. | [CONFIRM] |
+| Collaboration | Share changes that affect API contracts, data structures, UI flows or another member's work. | [CONFIRM] |
+| Quality | Define acceptance criteria and record actual test results before calling work complete. | [CONFIRM] |
+| Transparency | Report blockers and unfinished work honestly; do not mark simulated payment as real payment processing. | [CONFIRM] |
+| Respect | Invite questions and discuss disagreements constructively. | [CONFIRM] |
+| Decision records | Record meaningful scope or design decisions and why they were made. | [CONFIRM where records live] |
 
-## 4. Definition of done — proposed draft
+## 4. Proposed definition of done
 
-A backlog item may be considered done when the team has confirmed that:
+Use this only if the team reviews and adopts it:
 
-- Its acceptance criteria have been checked.
-- The relevant implementation or documentation is available for review.
-- Required tests or checks have been run and their actual result recorded.
-- Changes have been integrated through the team's agreed workflow.
-- Known limitations or unfinished work are documented.
-- The task status is updated in the team's tracking tool.
+- The agreed acceptance criteria have been checked.
+- The relevant code or artefact is available for review.
+- Relevant tests have actually been run and the results recorded.
+- The change is integrated through the team's agreed workflow.
+- Known limitations are documented, including any simulation-only payment behaviour.
+- The task's status is updated in Trello.
 
-**[CONFIRM]** whether this definition matches the team's actual workflow. Do not mark any task done solely because it appears in this draft.
+**Team's actual definition of done:** [CONFIRM or add the wording from the board.]
 
-## 5. Decision-making and conflict resolution — proposed draft
+## 5. Scope boundaries
 
-1. Clarify the issue and the requirement affected.
-2. Give relevant team members an opportunity to explain constraints and alternatives.
-3. Agree on a decision using the team's actual decision process.
-4. Record the decision, owner and follow-up action.
-5. Escalate unresolved issues through the course's agreed process where necessary.
+Based on the supplied source archive:
 
-**[CONFIRM]** the actual decision process and escalation route used by the team.
+- The prototype has a trader registration/login flow and generated trader IDs/QR codes.
+- The customer payment flow records simulated transactions.
+- The supplied source does not integrate a real payment gateway or settle funds.
+- The supplied data helper uses local JSON files.
+- The README lists real gateway integration, camera-based QR scanning, notifications and bank settlement as future improvements.
 
-## 6. Charter review
+These boundaries should be compared with the actual agreed scope and the latest Trello board before final submission.
 
-**Review date:** [ADD actual date]  
-**Members present:** [ADD verified attendees]  
-**Agreements approved or changed:** [ADD actual decisions]  
-**Evidence:** [ADD meeting note, message, board entry or other authentic record]
+## 6. Charter approval and review
+
+- **Charter/board source:** [ADD direct Trello card link or screenshot]
+- **Date reviewed:** [ADD actual date]
+- **Members involved:** [ADD verified attendees]
+- **Agreements approved or changed:** [ADD actual decisions]
+- **Evidence of approval:** [ADD board activity, meeting note or message]
+
+Do not invent a charter approval date or claim all members agreed without evidence.
 
 ## 7. Individual reflection — Paul Khumalo
 
-**Drafting status: Not written because personal experience has not yet been confirmed.**
+Write a first-person reflection based on your actual contribution and team experience:
 
-Use the prompts below to write a truthful first-person reflection:
+- Which working agreement affected your work and how?
+- What is one real example of collaboration, a decision or a blocker?
+- How did you respond?
+- What was the outcome, and what evidence supports it?
+- What would you change about team communication or task ownership next time?
 
-- Which charter agreement helped you work most effectively, and what specific example demonstrates this?
-- Which agreement was difficult to follow, if any, and why?
-- How did your own responsibilities affect collaboration with the rest of the team?
-- What would you change about the charter next time, based on an actual experience?
-- What evidence supports your account?
+**Reflection:** [ADD Paul's own account after confirming actual development work and board history.]
 
-**Reflection to complete:** [ADD your own account and a specific, verifiable example.]
+## Evidence checklist
 
-## Evidence to attach
-
-- [ ] Confirmed team roster and responsibilities.
-- [ ] Team-approved charter or dated record of agreement.
-- [ ] Genuine evidence of how the charter was used or revised.
-- [ ] Completed individual reflection linked to the evidence.
+- [ ] Trello charter card and its current content.
+- [ ] Verified team roster and development responsibilities.
+- [ ] Team-approved working agreements and definition of done.
+- [ ] Evidence of review or changes to the charter.
+- [ ] Completed personal reflection linked to a real example.
