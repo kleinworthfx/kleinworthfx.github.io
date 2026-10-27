@@ -1,3 +1,5 @@
+**CampusConnect Marketplace — PRP370S evidence draft:** [Open the CampusConnect portfolio section](https://kleinworthfx.github.io/campusconnect-prp370s/). This is a separate project from the Digital Payment Solution / PayTrader portfolio; proposed stories and Agile records still require verification against the actual team board.
+
 > **PRP370S Project Presentation 3 — Digital Payment Solution for Informal Traders:** [Open the portfolio of evidence](https://kleinworthfx.github.io/prp370s/). This section contains the Agile Team Charter, User Stories and Tasks, Product Backlog, Sprint Backlog, Agile Logbook and PayTrader application evidence.
 
 ---
