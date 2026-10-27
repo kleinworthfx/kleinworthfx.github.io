@@ -4,6 +4,21 @@ title: PRP370S Portfolio of Evidence
 
 # PRP370S | Portfolio of Evidence
 
+## Separate portfolio section: CampusConnect Marketplace
+
+The CampusConnect Marketplace project has its own evidence drafts based on the uploaded Project 3 documentation. This is separate from PayTrader / Digital Payment Solution above.
+
+- [CampusConnect PRP370S portfolio overview](campusconnect-prp370s/)
+- [Agile Team Charter](campusconnect-prp370s/team-charter)
+- [User Stories and Tasks](campusconnect-prp370s/user-stories)
+- [Product Backlog](campusconnect-prp370s/product-backlog)
+- [Sprint Backlog](campusconnect-prp370s/sprint-backlog)
+- [Agile Logbook](campusconnect-prp370s/agile-logbook)
+
+**Evidence status:** These are draft planning artefacts. Actual Trello records, sprint dates, confirmed task ownership, outcomes and Paul's individual reflections still need to be checked and completed. The documents do not claim that proposed stories or meetings were approved or completed without supporting records.
+
+---
+
 **Digital Payment Solution for Informal Traders · Project Presentation 3 · October 2026**
 
 This portfolio organises my evidence for the PRP370S / PRP371S / PRP372S Project Presentation 3 assessment. The project is the Digital Payment Solution for informal traders, with a PayTrader web prototype documented in the supplied application source archive.
